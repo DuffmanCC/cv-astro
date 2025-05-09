@@ -5,6 +5,7 @@ import path from "path";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://www.carlosortiz.dev",
   vite: {
     plugins: [tailwindcss()],
     resolve: {
