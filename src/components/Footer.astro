@@ -1,0 +1,14 @@
+---
+const now = new Date();
+const formattedDate = now.toLocaleDateString("en-GB", {
+  day: "2-digit",
+  month: "long",
+  year: "numeric",
+});
+const isoDate = now.toISOString().split("T")[0]; // YYYY-MM-DD
+---
+
+<footer class="py-4 w-full text-white text-center text-sm">
+  Last updated on
+  <time datetime={isoDate}>{formattedDate}</time> - Carlos Ortiz
+</footer>

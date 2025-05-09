@@ -1,0 +1,28 @@
+---
+import PrintExperience from "@/components/PrintExperience.astro";
+import content from "@/data/en.json";
+import PrintLayout from "@/layouts/PrintLayout.astro";
+---
+
+<PrintLayout>
+  <section>
+    <h2 class="text-5xl mb-4 font-medium">Profile</h2>
+    <div class="flex flex-col gap-4">
+      {content.profile.map((p) => <p set:html={p} />)}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="text-5xl mb-4 font-medium">Experience</h2>
+    <div class="flex flex-col gap-8">
+      {
+        content.experience.map((exp, i) => (
+          <>
+            <PrintExperience experience={exp} />
+            {(i === 2 || i === 5) && <div class="break-before-page" />}
+          </>
+        ))
+      }
+    </div>
+  </section>
+</PrintLayout>

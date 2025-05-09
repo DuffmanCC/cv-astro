@@ -1,0 +1,78 @@
+---
+import type { Experience } from "@/types";
+const { experience } = Astro.props as { experience: Experience };
+---
+
+<div>
+  <div class="mb-4 flex flex-col">
+    <h3 class="font-semibold text-3xl text-gray-400 mb-2">
+      {experience.title}
+    </h3>
+
+    <div
+      class="font-medium flex gap-2 mb-0.5 text-lg sm:text-2xl items-baseline"
+    >
+      {
+        experience.url ? (
+          <a href={experience.url} target="_blank" class="link">
+            {experience.company}
+          </a>
+        ) : (
+          <span>{experience.company}</span>
+        )
+      }
+      <span>-</span>
+      <span class="text-xl">{experience.type}</span>
+    </div>
+
+    <time class="font-extralight">{experience.period}</time>
+
+    <div class="font-medium text-gray-600">{experience.place}</div>
+  </div>
+
+  {experience.intro && <p class="mb-4" set:html={experience.intro} />}
+
+  {
+    experience.tasks.length > 0 && (
+      <div class="mb-6">
+        <ul class="list-disc ml-4">
+          {experience.tasks.map((task) => (
+            <li set:html={task} />
+          ))}
+        </ul>
+      </div>
+    )
+  }
+
+  {
+    experience.skills.length > 0 && (
+      <div class="mb-6 flex flex-wrap gap-2">
+        {experience.skills.map((skill) => (
+          <span class="rounded-full bg-gray-50 text-gray-950 px-4 py-2 border border-gray-600">
+            {skill}
+          </span>
+        ))}
+      </div>
+    )
+  }
+
+  {
+    experience.projects.length > 0 && (
+      <div>
+        <h3 class="text-xl font-semibold inline-block text-gray-600">
+          Some Projects
+        </h3>
+
+        <ul>
+          {experience.projects.map((project) => (
+            <li class="list-disc ml-4">
+              <a href={project.url} class="link" target="_blank">
+                {project.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</div>

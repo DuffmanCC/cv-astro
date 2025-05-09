@@ -1,0 +1,312 @@
+{
+  "profile": [
+    "Experienced Front-End Developer with a strong focus on React, Vue, and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
+
+    "I have successfully led front-end and back-end architecture projects, including leading the development of the Digital, Social Media, and Film department of <a href='https://www.networkrail.co.uk' class='link' target='_blank'>Network Rail</a>, where I introduced a design system. Currently, I am the Lead Front-End Engineer at FlowArchitect, driving the development of AI-powered workflow applications using React and related technologies.",
+
+    "While my current focus is front-end development, I bring extensive full-stack experience, particularly in building robust APIs and back-end systems using PHP frameworks like WordPress, Laravel, and Symfony, as well as integrating vector databases (e.g., Pinecone) and working with AI tools such as the ChatGPT API.",
+
+    "Recently helping online businesses integrate personalized AI chat assistants (<a href='https://www.maingpt.chat' target='blank' class='link'>MainGPT.chat</a>) to enhance customer experience and streamline support operations."
+  ],
+
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "MainGPT",
+      "url": "https://www.maingpt.chat/",
+      "type": "Full time",
+      "period": "February 2025 - Present",
+      "place": "Full remote, Spain",
+      "intro": "Empowering Businesses with AI chat assistants",
+      "tasks": [],
+      "skills": [
+        "OpenAI",
+        "Pinecone",
+        "React",
+        "Vue.js",
+        "Astro",
+        "Next.js",
+        "TypeScript",
+        "Symfony",
+        "Magento",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "projects": []
+    },
+    {
+      "title": "Lead Front-end Engineer",
+      "company": "FlowArchitect",
+      "type": "Contractor Part time",
+      "period": "September 2024 - February 2025 | 6 months",
+      "place": "Full remote, Spain",
+      "intro": "In FlowArchitect our mission is to empower developers and businesses by transforming complex AI workflows into seamless, open-source solutions. We simplify AI integration through accessible, flexible, and scalable tools, enabling innovation and productivity across applications of all sizes.",
+      "tasks": [
+        "Leading the development of front-end architecture for AI-driven workflow applications.",
+        "Defining the technical roadmap and architecture for the Design Workflow project.",
+        "Designing and implementing scalable, maintainable, and reusable UI components using React.",
+        "Defining workflows than can be translated into the <a href='https://www.commonwl.org/' class='link' target='_blank'>Common Workflow Language</a>.",
+        "Collaborating with cross-functional teams to translate business requirements into intuitive and efficient user interfaces.",
+        "Integrating APIs and AI tools seamlessly into front-end workflows to deliver intelligent application solutions.",
+        "Leading developers and providing guidance to team members, fostering a collaborative and high-performing engineering culture.",
+        "Conducting code reviews to maintain high standards of quality and technical excellence.",
+        "Implementing automated testing strategies to ensure the reliability and robustness of front-end components."
+      ],
+      "skills": [
+        "Common Workflow Language",
+        "Rete.js",
+        "React",
+        "Astro",
+        "Tailwind CSS",
+        "Vitest",
+        "Playwright"
+      ],
+      "projects": []
+    },
+    {
+      "title": "Front End Developer",
+      "company": "CoVi Analytics",
+      "url": "https://www.covianalytics.com/",
+      "type": "Contractor Part time",
+      "period": "August 2024 - September 2024 | 2 months",
+      "place": "Full remote, Spain",
+      "intro": "Covi Analytics is a data analytics company that empowers businesses with actionable insights into their operations and customer behavior.",
+      "tasks": [
+        "Analyzed the existing codebase of the web app to understand the functionality and architecture of the Vue application.",
+        "Added TypeScript to the project to improve the codebase.",
+        "Refactored the existing codebase to optimize performance and improve maintainability."
+      ],
+      "skills": ["Vue.js", "TypeScript", "Tailwind CSS"],
+      "projects": []
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Wod Coach",
+      "url": "https://www.wod.coach/",
+      "type": "Personal project",
+      "period": "Feb 2024 - Present",
+      "place": "Full remote, Spain",
+      "intro": "Personal project to create a platform that helps people generate the best workout tailored to their needs.",
+      "tasks": [
+        "Designed the architecture, development, and maintenance of the platform.",
+        "Defined standards and tech stack, utilizing a Laravel API and a Preact front-end built on Astro",
+        "Tested front-end code across multiple browsers to ensure cross-browser compatibility using Vitest and Playwright.",
+        "Tested back-end code to ensure the API's reliability and robustness with Pest.",
+        "Managed servers and databases to ensure optimal performance."
+      ],
+      "skills": [
+        "Preact",
+        "TypeScript",
+        "Astro",
+        "Tailwind CSS",
+        "Vitest",
+        "Playwright",
+        "Laravel",
+        "Pest"
+      ],
+      "projects": []
+    },
+    {
+      "title": "WordPress Developer",
+      "company": "Urchin Labs",
+      "type": "Contractor Part time",
+      "period": "April 2023 - Feb 2024 | 10 months",
+      "place": "Full remote, Spain",
+      "intro": "Urchin Labs was a startup focused on developing a ChatGPT-powered tool to improve customer service, specifically tailored for WooCommerce sites. Despite the project showing early potential, the startup did not move to the next stage of funding, and operations ceased before the product could be fully launched. However, I took ownership of the project, completing the development independently to ensure it was a fully functional solution. While it was never published on the official WordPress repository, the plugin is publicly available for manual installation on <a href='https://www.maingpt.chat' target='blank' class='link'>MainGPT.chat</a>.",
+      "tasks": [
+        "Designed the architecture and functionality of the plugin, integrating ChatGPT and Pinecone vector database for efficient data retrieval.",
+        "Integrated the plugin with the site's existing database, ensuring data security and privacy.",
+        "Developed a user-friendly interface for clients to interact with the Chatbot and receive relevant answers.",
+        "Conducted extensive testing to ensure the plugin's reliability, scalability, and performance.",
+        "Documented the plugin's technical specifications, including installation and usage instructions, for future reference.",
+        "Built the core website using a headless WordPress setup with Next.js to provide a modern, fast, and interactive user experience."
+      ],
+      "skills": [
+        "WordPress",
+        "Pinecone",
+        "ChatGPT",
+        "Docker",
+        "Vue.js",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "GraphQL",
+        "WooCommerce",
+        "Vitest",
+        "Playwright",
+        "Figma",
+        "GitHub Actions"
+      ],
+      "projects": []
+    },
+    {
+      "title": "WordPress Developer",
+      "company": "Totally Group",
+      "url": "https://totally.tech/",
+      "type": "Contractor Full time",
+      "period": "Jun 2022 - December 2022 | 7 months",
+      "place": "Full remote, Spain",
+      "intro": "Totally Group is a digital agency that specializes in WordPress development. I worked on several projects for WordPress sites. Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients.",
+      "tasks": [
+        "Developed custom WordPress themes and plugins for clients.",
+        "Maintened and improved existing WordPress sites."
+      ],
+      "skills": [
+        "jQuery",
+        "Webpack",
+        "Sass",
+        "BEM",
+        "Git",
+        "Sage",
+        "Bedrock",
+        "Docker",
+        "GitLab"
+      ],
+      "projects": [
+        {
+          "url": "https://www.startuploans.co.uk/",
+          "title": "Start Up Loans"
+        },
+        {
+          "url": "https://www.txone.com/",
+          "title": "txOne networks"
+        },
+        {
+          "url": "https://businessdisabilityforum.org.uk/",
+          "title": "Business Disability Forum"
+        },
+        {
+          "url": "https://www.savetherhino.org/",
+          "title": "Save the"
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Web Developer",
+      "company": "Network Rail",
+      "url": "https://www.networkrail.co.uk/",
+      "type": "Full time",
+      "period": "Feb 2018 - April 2022 | 4 years and 3 months",
+      "place": "Milton Keynes, United Kingdom",
+      "intro": "Network Rail is the owner and infrastructure manager of most of the railway network in Great Britain. I worked on several projects for the company's internal systems, primarily leading the development of the new corporate website and providing guidance to other teams and agencies.",
+      "tasks": [
+        "Designed the architecture, development, and maintenance of the company's corporate website.",
+        "Led the design and implementation of new features and functionality to enhance the user experience.",
+        "Defined standards and tech stack in collaboration with other agencies and teams.",
+        "Created custom Gutenberg blocks based on Advanced Custom Fields and Vue.js",
+        "Developed a design system using <a href='https://storybook.js.org/' target='_blank' class='link'>Storybook</a> to manage all front-end resources of the corporate website.",
+        "Created single-page applications and other microsites based on Vue.js",
+        "Monitored website performance and took appropriate action to ensure optimal performance."
+      ],
+      "skills": [
+        "Vue.js",
+        "Vuex",
+        "React",
+        "TypeScript",
+        "Webpack",
+        "Tailwind CSS",
+        "Storybook",
+        "Chromatic",
+        "GraphQL",
+        "Git",
+        "Laravel",
+        "Sage",
+        "WP Engine",
+        "OAuth",
+        "JWT",
+        "Algolia",
+        "Docker"
+      ],
+      "projects": [
+        {
+          "url": "https://www.networkrail.co.uk",
+          "title": "Network Rail corporate website"
+        },
+        {
+          "url": "https://www.networkrail.co.uk/careers/careers-search/2",
+          "title": "Careers Search"
+        },
+        {
+          "url": "https://duffmancc.github.io/sustainability-at-network-rail/",
+          "title": "Sustainability at Network Rail"
+        }
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Klood Ltd",
+      "url": "https://www.klood.com/",
+      "type": "Full time",
+      "period": "Nov 2015 - Nov 2017 | 2 years",
+      "place": "Milton Keynes, United Kingdom",
+      "intro": "Klood is a digital marketing agency based in Milton Keynes that specializes in inbound marketing.",
+      "tasks": [
+        "Met with clients to discuss website designs and functionality.",
+        "Created custom plugins, themes, and functions for WordPress websites.",
+        "Tested front-end code in multiple browsers to ensure cross-browser compatibility.",
+        "Worked with multiple APIs and RESTful Services.",
+        "Built reusable code and libraries for future use.",
+        "Optimized pages for page speed using Google PageSpeed (API) for Apache to achieve higher rankings on Search Engines (SEM).",
+        "Front-end development using the latest HTML5 and CSS3 techniques, enhanced by jQuery to enable optimum user experience throughout the websites.",
+        "Worked in Agile methodology."
+      ],
+      "skills": [
+        "jQuery",
+        "Gulp",
+        "Composer",
+        "Git",
+        "Docker",
+        "Bootstrap",
+        "Sage",
+        "Laravel",
+        "cPanel",
+        "WooCommerce"
+      ],
+      "projects": [
+        {
+          "url": "https://www.vwfsfleet.co.uk",
+          "title": "Volkswagen Financial Services"
+        },
+        {
+          "url": "https://makinglifepeachy.com/",
+          "title": "Peach Pubs"
+        }
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Freelance",
+      "type": "Full time",
+      "period": "Oct 2013 - Oct 2015 | 2 years",
+      "place": "Canterbury (UK) and Cáceres (Spain)",
+      "intro": "I began my career as a web developer, working on various small projects for a range of clients.",
+      "tasks": [],
+      "skills": ["WordPress", "PrestaShop"],
+      "projects": []
+    }
+  ],
+
+  "otherProjects": [
+    {
+      "title": "Network Rail Jobs",
+      "url": "https://networkrail-jobs.vercel.app/",
+      "githubUrl": "https://github.com/DuffmanCC/networkrail-jobs",
+      "description": "Getting familiar with the new app router in NextJS and NextUi.",
+      "skills": ["Next.js", "NestUi", "React", "Vercel"]
+    },
+    {
+      "title": "Play Soroban",
+      "url": "https://duffmancc.github.io/fast-calc/",
+      "githubUrl": "https://github.com/DuffmanCC/fast-calc",
+      "description": "A simple game to practice the Soroban.",
+      "skills": ["React"]
+    },
+    {
+      "title": "Soroban React Component",
+      "url": "https://www.npmjs.com/package/soroban-react-component",
+      "githubUrl": "https://github.com/DuffmanCC/soroban-react-component",
+      "description": "A React component to display a Soroban abacus.",
+      "skills": ["React", "NPM"]
+    }
+  ]
+}
