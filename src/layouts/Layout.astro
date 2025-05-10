@@ -1,6 +1,8 @@
 ---
+import Analytics from "@/components/Analytics.astro";
 import Footer from "@/components/Footer.astro";
 import Sidebar from "@/components/Sidebar.astro";
+import content from "@/data/en.json";
 import "@/global.css";
 ---
 
@@ -17,7 +19,10 @@ import "@/global.css";
       rel="stylesheet"
     />
     <meta name="generator" content={Astro.generator} />
-    <title>Carlos Ortiz Developer</title>
+    <meta name="description" content={content.description} />
+    <meta name="author" content={content.author} />
+    <title>{content.title}</title>
+    <Analytics />
   </head>
   <body
     class="bg-neutral-950 flex flex-col gap-4 p-4 md:py-12 h-dvh container mx-auto text-amber-50 relative antialiased"

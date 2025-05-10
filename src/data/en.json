@@ -1,4 +1,7 @@
 {
+  "author": "Carlos Ortiz",
+  "title": "Carlos Ortiz - Full Stack Developer",
+  "description": "Front-end engineer specialized in React apps and AI-driven workflows. Over 10 years of experience building scalable digital products.",
   "profile": [
     "Experienced Front-End Developer with a strong focus on React, Vue.js, NextJS, Astro, and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
 
@@ -107,7 +110,7 @@
       "projects": []
     },
     {
-      "title": "WordPress Developer",
+      "title": "AI Engineer - WordPress Developer",
       "company": "Urchin Labs",
       "type": "Contractor Part time",
       "period": "April 2023 - Feb 2024 | 10 months",
