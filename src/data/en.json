@@ -40,7 +40,7 @@
     {
       "title": "Lead Front-end Engineer",
       "company": "FlowArchitect",
-      "type": "Contractor Part time",
+      "type": "Contractor part time",
       "period": "September 2024 - February 2025 | 6 months",
       "place": "Full remote, Spain",
       "intro": "In FlowArchitect our mission is to empower developers and businesses by transforming complex AI workflows into seamless, open-source solutions. We simplify AI integration through accessible, flexible, and scalable tools, enabling innovation and productivity across applications of all sizes.",
@@ -70,7 +70,7 @@
       "title": "Front End Developer",
       "company": "CoVi Analytics",
       "url": "https://www.covianalytics.com/",
-      "type": "Contractor Part time",
+      "type": "Contractor part time",
       "period": "August 2024 - September 2024 | 2 months",
       "place": "Full remote, Spain",
       "intro": "Covi Analytics is a data analytics company that empowers businesses with actionable insights into their operations and customer behavior.",
@@ -112,7 +112,7 @@
     {
       "title": "AI Engineer - WordPress Developer",
       "company": "Urchin Labs",
-      "type": "Contractor Part time",
+      "type": "Contractor part time",
       "period": "April 2023 - Feb 2024 | 10 months",
       "place": "Full remote, Spain",
       "intro": "Urchin Labs was a startup focused on developing a ChatGPT-powered tool to improve customer service, specifically tailored for WooCommerce sites. Despite the project showing early potential, the startup did not move to the next stage of funding, and operations ceased before the product could be fully launched. However, I took ownership of the project, completing the development independently to ensure it was a fully functional solution. While it was never published on the official WordPress repository, the plugin is publicly available for manual installation on <a href='https://www.maingpt.chat' target='blank' class='link'>MainGPT.chat</a>.",
@@ -146,7 +146,7 @@
       "title": "WordPress Developer",
       "company": "Totally Group",
       "url": "https://totally.tech/",
-      "type": "Contractor Full time",
+      "type": "Contractor full time",
       "period": "Jun 2022 - December 2022 | 7 months",
       "place": "Full remote, Spain",
       "intro": "Totally Group is a digital agency that specializes in WordPress development. I worked on several projects for WordPress sites. Responsibilities included implementing new features, fixing existing bugs, coordinating with other developers and project managers, improving code quality, improving technology stacks, and delivering the needs of our clients.",
@@ -180,7 +180,7 @@
         },
         {
           "url": "https://www.savetherhino.org/",
-          "title": "Save the"
+          "title": "Save the rhino"
         }
       ]
     },
@@ -310,24 +310,6 @@
       "githubUrl": "https://github.com/DuffmanCC/soroban-react-component",
       "description": "A React component to display a Soroban abacus.",
       "skills": ["React", "NPM"]
-    }
-  ],
-
-  "networks": [
-    {
-      "name": "github",
-      "url": "https://github.com/DuffmanCC",
-      "svg": "SvgGithub"
-    },
-    {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com/in/carlosortiz79/",
-      "svg": "SvgLinkedin"
-    },
-    {
-      "name": "codepen",
-      "url": "https://codepen.io/DuffmanCC/",
-      "svg": "SvgCodepen"
     }
   ]
 }

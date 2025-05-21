@@ -10,7 +10,7 @@ const { experience } = Astro.props as { experience: Experience };
     </h3>
 
     <div
-      class="font-medium flex gap-2 mb-0.5 text-lg sm:text-2xl items-baseline"
+      class="font-medium flex flex-col gap-2 mb-0.5 text-lg sm:text-2xl items-baseline"
     >
       {
         experience.url ? (
@@ -21,7 +21,6 @@ const { experience } = Astro.props as { experience: Experience };
           <span>{experience.company}</span>
         )
       }
-      <span>-</span>
       <span class="text-xl">{experience.type}</span>
     </div>
 
