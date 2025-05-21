@@ -1,5 +1,6 @@
 // @ts-check
 import tailwindcss from "@tailwindcss/vite";
+import pdf from "astro-pdf";
 import { defineConfig } from "astro/config";
 import path from "path";
 
@@ -14,4 +15,16 @@ export default defineConfig({
       },
     },
   },
+  integrations: [
+    pdf({
+      pages: {
+        "/print": {
+          path: "./carlos-ortiz-resume.pdf",
+          pdf: {
+            format: "A4",
+          },
+        },
+      },
+    }),
+  ],
 });

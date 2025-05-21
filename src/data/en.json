@@ -311,5 +311,23 @@
       "description": "A React component to display a Soroban abacus.",
       "skills": ["React", "NPM"]
     }
+  ],
+
+  "networks": [
+    {
+      "name": "github",
+      "url": "https://github.com/DuffmanCC",
+      "svg": "SvgGithub"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/carlosortiz79/",
+      "svg": "SvgLinkedin"
+    },
+    {
+      "name": "codepen",
+      "url": "https://codepen.io/DuffmanCC/",
+      "svg": "SvgCodepen"
+    }
   ]
 }

@@ -15,8 +15,31 @@
   top: -0.2rem;
 }
 
-@media print {
-  .link::after {
-    content: url("./assets/print-external-link.svg");
+.print {
+  .link {
+    @apply text-blue-500 pr-0;
   }
+  .link::after {
+    content: none;
+  }
+}
+
+@media print {
+  html {
+    font-size: 8px;
+  }
+
+  body {
+    margin: 1cm 3cm 1cm 4cm;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 800px;
+  }
+}
+
+.break-before-page {
+  page-break-before: always;
+  break-before: page;
 }

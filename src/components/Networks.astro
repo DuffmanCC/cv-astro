@@ -1,0 +1,46 @@
+---
+import CodepenIcon from "../components/icons/Codepen.astro";
+import GithubIcon from "../components/icons/Github.astro";
+import LinkedinIcon from "../components/icons/Linkedin.astro";
+import PdfIcon from "../components/icons/Pdf.astro";
+
+const networks = [
+  {
+    name: "github",
+    url: "https://github.com/DuffmanCC",
+    Icon: GithubIcon,
+  },
+  {
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/carlosortiz79/",
+    Icon: LinkedinIcon,
+  },
+  {
+    name: "codepen",
+    url: "https://codepen.io/DuffmanCC/",
+    Icon: CodepenIcon,
+  },
+  {
+    name: "cv",
+    url: "/resume.pdf",
+    Icon: PdfIcon,
+    download: true,
+  },
+];
+---
+
+<div class="my-3 flex gap-2">
+  {
+    networks.map(({ url, name, Icon, download }) => (
+      <a
+        href={url}
+        aria-label={name}
+        target={download ? undefined : "_blank"}
+        download={download}
+        class="hover:scale-105 transition-transform duration-200"
+      >
+        <Icon class="size-10" />
+      </a>
+    ))
+  }
+</div>
