@@ -1,18 +1,18 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
     branches: [main]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -20,12 +20,41 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
+
+      - name: Install dependencies and build
         uses: withastro/action@v3
         with:
-          # path: . # The root location of your Astro project inside the repository. (optional)
-          node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-          package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+          node-version: 20
+          package-manager: pnpm@latest
+
+      - name: Install Puppeteer dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libcups2 libdbus-1-3 libgdk-pixbuf2.0-0 libnspr4 libnss3 libxcomposite1 libxdamage1 libxrandr2 xdg-utils libu2f-udev libvulkan1
+          pnpm add puppeteer
+
+      - name: Generate PDF from dist/index.html
+        run: |
+          node <<'EOF'
+          const puppeteer = require('puppeteer');
+          const fs = require('fs');
+          (async () => {
+            const browser = await puppeteer.launch({
+              headless: 'new',
+              args: ['--no-sandbox']
+            });
+            const page = await browser.newPage();
+            await page.goto(`file://${process.env.GITHUB_WORKSPACE}/dist/index.html`, { waitUntil: 'networkidle0' });
+            await page.pdf({ path: 'output.pdf', format: 'A4' });
+            await browser.close();
+          })();
+          EOF
+
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-pdf
+          path: output.pdf
 
   deploy:
     needs: build
