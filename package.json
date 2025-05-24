@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "build:with-pdf": "pnpm build && mv dist/carlos-ortiz-resume.pdf public/",
+    "build:with-pdf": "rm -f public/carlos-ortiz-resume.pdf && pnpm build && mv dist/carlos-ortiz-resume.pdf public/",
     "preview": "astro preview",
     "astro": "astro"
   },

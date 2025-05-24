@@ -3,7 +3,7 @@ import type { Experience } from "@/types";
 const { experience } = Astro.props as { experience: Experience };
 ---
 
-<div>
+<div class="rounded-2xl p-4 bg-neutral-800">
   <div class="mb-4 flex flex-col">
     <h3 class="font-semibold text-3xl text-amber-400 mb-2">
       {experience.title}
@@ -45,7 +45,7 @@ const { experience } = Astro.props as { experience: Experience };
     experience.skills.length > 0 && (
       <div class="mb-6 flex flex-wrap gap-2">
         {experience.skills.map((skill) => (
-          <span class="rounded-full bg-amber-50 text-amber-950 px-4 py-2 border border-amber-600">
+          <span class="rounded-full bg-amber-50 text-amber-950 px-2 py-1 sm:px-4 sm:py-2 border border-amber-600">
             {skill}
           </span>
         ))}
