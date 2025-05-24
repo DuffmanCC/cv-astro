@@ -33,13 +33,11 @@ const { experience } = Astro.props as { experience: Experience };
 
   {
     experience.tasks.length > 0 && (
-      <div class="mb-6">
-        <ul class="list-disc ml-4">
-          {experience.tasks.map((task) => (
-            <li set:html={task} />
-          ))}
-        </ul>
-      </div>
+      <ul class="list-disc ml-4 mb-6">
+        {experience.tasks.map((task) => (
+          <li set:html={task} />
+        ))}
+      </ul>
     )
   }
 
@@ -58,9 +56,9 @@ const { experience } = Astro.props as { experience: Experience };
   {
     experience.projects.length > 0 && (
       <div>
-        <h3 class="text-xl font-semibold inline-block text-amber-600">
+        <h4 class="text-xl font-semibold inline-block text-amber-600">
           Some Projects
-        </h3>
+        </h4>
 
         <ul>
           {experience.projects.map((project) => (
