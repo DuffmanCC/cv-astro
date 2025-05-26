@@ -21,7 +21,7 @@ export default defineConfig({
       pdf({
         pages: {
           "/print": {
-            path: "./carlos-ortiz-resume.pdf",
+            path: `./carlos-ortiz-resume.pdf`,
             pdf: { format: "A4" },
           },
         },

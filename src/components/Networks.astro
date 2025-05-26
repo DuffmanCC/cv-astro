@@ -1,8 +1,8 @@
 ---
-import CodepenIcon from "../components/icons/Codepen.astro";
-import GithubIcon from "../components/icons/Github.astro";
-import LinkedinIcon from "../components/icons/Linkedin.astro";
-import PdfIcon from "../components/icons/Pdf.astro";
+import CodepenIcon from "./icons/Codepen.astro";
+import GithubIcon from "./icons/Github.astro";
+import LinkedinIcon from "./icons/Linkedin.astro";
+import PdfIcon from "./icons/Pdf.astro";
 
 const networks = [
   {
@@ -37,7 +37,7 @@ const networks = [
         aria-label={name}
         target={download ? undefined : "_blank"}
         download={download}
-        class="hover:scale-105 transition-transform duration-200"
+        class="hover:scale-105 transition-transform duration-200 text-amber-300 blue"
       >
         <Icon class="size-10" />
       </a>
