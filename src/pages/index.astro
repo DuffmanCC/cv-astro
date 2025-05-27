@@ -1,25 +1,26 @@
 ---
 import Experience from "@/components/Experience.astro";
+import Section from "@/components/Section.astro";
 import content from "@/data/en.json";
 import Layout from "@/layouts/Layout.astro";
 ---
 
 <Layout>
-  <section>
+  <Section>
     <h2 class="text-4xl mb-4 font-medium text-amber-100">Profile</h2>
     <div class="flex flex-col gap-4">
       {content.profile.map((p) => <p set:html={p} />)}
     </div>
-  </section>
+  </Section>
 
-  <section>
+  <Section>
     <h2 class="text-4xl mb-4 font-medium text-amber-100">Experience</h2>
     <div class="flex flex-col gap-4">
       {content.experience.map((exp) => <Experience experience={exp} />)}
     </div>
-  </section>
+  </Section>
 
-  <section>
+  <Section>
     <h2 class="text-4xl mb-4 font-medium text-amber-100">Other projects</h2>
 
     <ul class="list-disc ml-4">
@@ -50,9 +51,9 @@ import Layout from "@/layouts/Layout.astro";
         ))
       }
     </ul>
-  </section>
+  </Section>
 
-  <section>
+  <Section>
     <h2 class="text-4xl mb-4 font-medium text-amber-100">Education</h2>
 
     <p class="font-bold text-xl">Arquitectura Técnica</p>
@@ -70,5 +71,5 @@ import Layout from "@/layouts/Layout.astro";
     <time>1998-2002</time>
 
     <div class="">Cáceres, Extremadura, Spain</div>
-  </section>
+  </Section>
 </Layout>

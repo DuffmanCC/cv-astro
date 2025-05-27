@@ -6,7 +6,7 @@
 }
 
 .link {
-  @apply text-amber-200 hover:text-amber-300 transition-colors underline pr-4 relative;
+  @apply text-amber-200 hover:text-amber-300 transition-colors underline pr-4 relative inline-block;
 }
 
 .link::after {
