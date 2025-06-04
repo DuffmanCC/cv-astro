@@ -47,15 +47,15 @@
       "place": "Full remote, Spain",
       "intro": "In FlowArchitect our mission is to empower developers and businesses by transforming complex AI workflows into seamless, open-source solutions. We simplify AI integration through accessible, flexible, and scalable tools, enabling innovation and productivity across applications of all sizes.",
       "tasks": [
-        "Leading the development of front-end architecture for AI-driven workflow applications.",
-        "Defining the technical roadmap and architecture for the Design Workflow project.",
-        "Designing and implementing scalable, maintainable, and reusable UI components using React.",
-        "Defining workflows than can be translated into the <a href='https://www.commonwl.org/' class='link' target='_blank'>Common Workflow Language</a>.",
-        "Collaborating with cross-functional teams to translate business requirements into intuitive and efficient user interfaces.",
-        "Integrating APIs and AI tools seamlessly into front-end workflows to deliver intelligent application solutions.",
-        "Leading developers and providing guidance to team members, fostering a collaborative and high-performing engineering culture.",
-        "Conducting code reviews to maintain high standards of quality and technical excellence.",
-        "Implementing automated testing strategies to ensure the reliability and robustness of front-end components."
+        "Led the development of front-end architecture for AI-driven workflow applications.",
+        "Defined the technical roadmap and architecture for the Design Workflow project.",
+        "Designed and implemented scalable, maintainable, and reusable UI components using React.",
+        "Defined workflows that could be translated into the <a href='https://www.commonwl.org/' class='link' target='_blank'>Common Workflow Language</a>.",
+        "Collaborated with cross-functional teams to translate business requirements into intuitive and efficient user interfaces.",
+        "Integrated APIs and AI tools seamlessly into front-end workflows to deliver intelligent application solutions.",
+        "Led developers and provided guidance to team members, fostering a collaborative and high-performing engineering culture.",
+        "Conducted code reviews to maintain high standards of quality and technical excellence.",
+        "Implemented automated testing strategies to ensure the reliability and robustness of front-end components."
       ],
       "skills": [
         "Common Workflow Language",
