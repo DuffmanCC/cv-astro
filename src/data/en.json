@@ -7,7 +7,7 @@
 
     "I have successfully led front-end and back-end architecture projects, including the development of the Digital, Social Media, and Film department at <a href='https://www.networkrail.co.uk' class='link' target='_blank'>Network Rail</a>, where I introduced a design system and established a scalable architecture that streamlined collaboration and consistency across other agencies. Most recently, I served as Lead Front-End Engineer at FlowArchitect, where I spearheaded the development of AI-powered workflow applications using React and related technologies.",
 
-    "I am now fully focused on <a href='https://www.maingpt.chat' target='_blank' class='link'>MainGPT.chat</a>, a tool that helps online businesses integrate personalized AI chat assistants to enhance customer experience and streamline support operations. As part of this work, I design full-stack solutions that integrate vector databases (e.g., Pinecone) and leverage AI tools like the ChatGPT API to deliver context-aware, intelligent conversations.",
+    "I am now fully focused on <a href='https://www.maingpt.chat' target='_blank' class='link'>MainGPT</a>, a tool that helps online businesses integrate personalized AI chat assistants to enhance customer experience and streamline support operations. As part of this work, I design full-stack solutions that integrate vector databases (e.g., Pinecone) and leverage AI tools like the ChatGPT API to deliver context-aware, intelligent conversations.",
 
     "While my current focus is front-end development, I bring extensive full-stack experience, particularly in building robust APIs and back-end systems using PHP frameworks like WordPress, Laravel, and Symfony."
   ],
@@ -20,18 +20,20 @@
       "type": "Full time",
       "period": "February 2025 - Present",
       "place": "Full remote, Spain",
-      "intro": "Empowering Businesses with AI chat assistants",
-      "tasks": [],
+      "intro": "Leading the development of AI-powered chat assistants for online businesses, combining front-end innovation with advanced AI and vector search technologies to deliver personalized, scalable customer support solutions.",
+      "tasks": [
+        "Designing and developing AI-driven chat interfaces using React and Vue.js to improve user engagement and customer support efficiency.",
+        "Integrating vector databases (e.g., Pinecone) to enable semantic search and contextual memory within chat assistants.",
+        "Building custom WordPress plugin to allow seamless AI assistant integration into existing business websites.",
+        "Leveraging the OpenAI API (ChatGPT) to deliver tailored, context-aware responses based on user input and stored business knowledge."
+      ],
       "skills": [
         "OpenAI",
         "Pinecone",
         "React",
         "Vue.js",
-        "Astro",
         "Next.js",
         "TypeScript",
-        "Symfony",
-        "Magento",
         "WordPress",
         "WooCommerce"
       ],
