@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@tailwindcss/vite':
-        specifier: ^4.1.5
+        specifier: 4.1.5
         version: 4.1.5(vite@6.3.5(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.29.2))
       astro:
-        specifier: ^5.7.12
+        specifier: 5.7.12
         version: 5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.2)(typescript@5.8.3)
       astro-pdf:
-        specifier: ^1.7.2
+        specifier: 1.7.2
         version: 1.7.2(astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.2)(typescript@5.8.3))(typescript@5.8.3)
       tailwindcss:
-        specifier: ^4.1.5
+        specifier: 4.1.5
         version: 4.1.5
     devDependencies:
       '@tailwindcss/typography':
-        specifier: ^0.5.16
+        specifier: 0.5.16
         version: 0.5.16(tailwindcss@4.1.5)
       '@types/node':
-        specifier: ^22.15.17
+        specifier: 22.15.17
         version: 22.15.17
 
 packages:
@@ -840,15 +840,6 @@ packages:
     resolution: {integrity: sha512-7hvf7/GW8e86rW0ptuwS3OcBGDjIi6SZva7hCyWC0yYry2cOPmLIjXAUHI6DK2HsnwJd9ifmt57i8eV2n4YNpw==}
     engines: {node: '>= 14'}
 
-  debug@4.4.0:
-    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
   debug@4.4.1:
     resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
     engines: {node: '>=6.0'}
@@ -1611,11 +1602,6 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  semver@7.7.1:
-    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.7.2:
     resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
     engines: {node: '>=10'}
@@ -2051,7 +2037,7 @@ snapshots:
   '@astrojs/telemetry@3.2.1':
     dependencies:
       ci-info: 4.2.0
-      debug: 4.4.0
+      debug: 4.4.1
       dlv: 1.1.3
       dset: 3.1.4
       is-docker: 3.0.0
@@ -2261,11 +2247,11 @@ snapshots:
 
   '@puppeteer/browsers@2.6.1':
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       extract-zip: 2.0.1
       progress: 2.0.3
       proxy-agent: 6.5.0
-      semver: 7.7.1
+      semver: 7.7.2
       tar-fs: 3.0.8
       unbzip2-stream: 1.4.3
       yargs: 17.7.2
@@ -2555,7 +2541,7 @@ snapshots:
       common-ancestor-path: 1.0.1
       cookie: 1.0.2
       cssesc: 3.0.0
-      debug: 4.4.0
+      debug: 4.4.1
       deterministic-object-hash: 2.0.2
       devalue: 5.1.1
       diff: 5.2.0
@@ -2581,7 +2567,7 @@ snapshots:
       picomatch: 4.0.2
       prompts: 2.4.2
       rehype: 13.0.2
-      semver: 7.7.1
+      semver: 7.7.2
       shiki: 3.4.0
       tinyexec: 0.3.2
       tinyglobby: 0.2.13
@@ -2788,10 +2774,6 @@ snapshots:
   cssesc@3.0.0: {}
 
   data-uri-to-buffer@6.0.2: {}
-
-  debug@4.4.0:
-    dependencies:
-      ms: 2.1.3
 
   debug@4.4.1:
     dependencies:
@@ -3513,7 +3495,7 @@ snapshots:
   micromark@4.0.2:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
@@ -3693,7 +3675,7 @@ snapshots:
     dependencies:
       '@puppeteer/browsers': 2.6.1
       chromium-bidi: 0.11.0(devtools-protocol@0.0.1367902)
-      debug: 4.4.0
+      debug: 4.4.1
       devtools-protocol: 0.0.1367902
       typed-query-selector: 2.12.0
       ws: 8.18.2
@@ -3855,15 +3837,13 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.40.2
       fsevents: 2.3.3
 
-  semver@7.7.1: {}
-
   semver@7.7.2: {}
 
   sharp@0.33.5:
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.4
-      semver: 7.7.1
+      semver: 7.7.2
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
       '@img/sharp-darwin-x64': 0.33.5
