@@ -1,15 +1,15 @@
 {
   "author": "Carlos Ortiz",
   "title": "Carlos Ortiz - Full Stack Developer",
-  "description": "Front-end engineer specialized in React apps and AI-driven workflows. Over 10 years of experience building scalable digital products.",
+  "description": "Frontend engineer specialized in React apps and AI-driven workflows. Over 10 years of experience building scalable digital products.",
   "profile": [
-    "Experienced Front-End Developer with a strong focus on React, Vue.js, NextJS, Astro, and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
+    "Experienced Frontend Developer with a strong focus on React, Vue.js, NextJS, Astro, and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
 
-    "I have successfully led front-end and back-end architecture projects, including the development of the Digital, Social Media, and Film department at <a href='https://www.networkrail.co.uk' class='link' target='_blank'>Network Rail</a>, where I introduced a design system and established a scalable architecture that streamlined collaboration and consistency across other agencies. Most recently, I served as Lead Front-End Engineer at FlowArchitect, where I spearheaded the development of AI-powered workflow applications using React and related technologies.",
+    "I have successfully led frontend and backend architecture projects, including the development of the Digital, Social Media, and Film department at <a href='https://www.networkrail.co.uk' class='link' target='_blank'>Network Rail</a>, where I introduced a design system and established a scalable architecture that streamlined collaboration and consistency across other agencies. Most recently, I served as Lead Frontend Engineer at FlowArchitect, where I spearheaded the development of AI-powered workflow applications using React and related technologies.",
 
     "I am now fully focused on <a href='https://www.maingpt.chat' target='_blank' class='link'>MainGPT</a>, a tool that helps online businesses integrate personalized AI chat assistants to enhance customer experience and streamline support operations. As part of this work, I design full-stack solutions that integrate vector databases (e.g., Pinecone) and leverage AI tools like the ChatGPT API to deliver context-aware, intelligent conversations.",
 
-    "While my current focus is front-end development, I bring extensive full-stack experience, particularly in building robust APIs and back-end systems using PHP frameworks like WordPress, Laravel, and Symfony."
+    "While my current focus is frontend development, I bring extensive full-stack experience, particularly in building robust APIs and backend systems using PHP frameworks like WordPress, Laravel, and Symfony."
   ],
 
   "experience": [
@@ -20,7 +20,7 @@
       "type": "Full time",
       "period": "February 2025 - Present",
       "place": "Full remote, Spain",
-      "intro": "Leading the development of AI-powered chat assistants for online businesses, combining front-end innovation with advanced AI and vector search technologies to deliver personalized, scalable customer support solutions.",
+      "intro": "Leading the development of AI-powered chat assistants for online businesses, combining frontend innovation with advanced AI and vector search technologies to deliver personalized, scalable customer support solutions.",
       "tasks": [
         "Designing and developing AI-driven chat interfaces using React and Vue.js to improve user engagement and customer support efficiency.",
         "Integrating vector databases (e.g., Pinecone) to enable semantic search and contextual memory within chat assistants.",
@@ -40,22 +40,22 @@
       "projects": []
     },
     {
-      "title": "Lead Front-end Engineer",
+      "title": "Lead Frontend Engineer",
       "company": "FlowArchitect",
       "type": "Contractor part time",
       "period": "September 2024 - February 2025 | 6 months",
       "place": "Full remote, Spain",
       "intro": "In FlowArchitect our mission is to empower developers and businesses by transforming complex AI workflows into seamless, open-source solutions. We simplify AI integration through accessible, flexible, and scalable tools, enabling innovation and productivity across applications of all sizes.",
       "tasks": [
-        "Led the development of front-end architecture for AI-driven workflow applications.",
+        "Led the development of frontend architecture for AI-driven workflow applications.",
         "Defined the technical roadmap and architecture for the Design Workflow project.",
         "Designed and implemented scalable, maintainable, and reusable UI components using React.",
         "Defined workflows that could be translated into the <a href='https://www.commonwl.org/' class='link' target='_blank'>Common Workflow Language</a>.",
         "Collaborated with cross-functional teams to translate business requirements into intuitive and efficient user interfaces.",
-        "Integrated APIs and AI tools seamlessly into front-end workflows to deliver intelligent application solutions.",
+        "Integrated APIs and AI tools seamlessly into frontend workflows to deliver intelligent application solutions.",
         "Led developers and provided guidance to team members, fostering a collaborative and high-performing engineering culture.",
         "Conducted code reviews to maintain high standards of quality and technical excellence.",
-        "Implemented automated testing strategies to ensure the reliability and robustness of front-end components."
+        "Implemented automated testing strategies to ensure the reliability and robustness of frontend components."
       ],
       "skills": [
         "Common Workflow Language",
@@ -69,7 +69,7 @@
       "projects": []
     },
     {
-      "title": "Front End Developer",
+      "title": "Frontend Developer",
       "company": "CoVi Analytics",
       "url": "https://www.covianalytics.com/",
       "type": "Contractor part time",
@@ -94,9 +94,9 @@
       "intro": "Personal project to create a platform that helps people generate the best workout tailored to their needs.",
       "tasks": [
         "Designed the architecture, development, and maintenance of the platform.",
-        "Defined standards and tech stack, utilizing a Laravel API and a Preact front-end built on Astro",
-        "Tested front-end code across multiple browsers to ensure cross-browser compatibility using Vitest and Playwright.",
-        "Tested back-end code to ensure the API's reliability and robustness with Pest.",
+        "Defined standards and tech stack, utilizing a Laravel API and a Preact frontend built on Astro",
+        "Tested frontend code across multiple browsers to ensure cross-browser compatibility using Vitest and Playwright.",
+        "Tested backend code to ensure the API's reliability and robustness with Pest.",
         "Managed servers and databases to ensure optimal performance."
       ],
       "skills": [
@@ -200,7 +200,7 @@
         "Led the design and implementation of new features and functionality to enhance the user experience.",
         "Defined standards and tech stack in collaboration with other agencies and teams.",
         "Created custom Gutenberg blocks based on Advanced Custom Fields and Vue.js",
-        "Developed a design system using <a href='https://storybook.js.org/' target='_blank' class='link'>Storybook</a> to manage all front-end resources of the corporate website.",
+        "Developed a design system using <a href='https://storybook.js.org/' target='_blank' class='link'>Storybook</a> to manage all frontend resources of the corporate website.",
         "Created single-page applications and other microsites based on Vue.js",
         "Monitored website performance and took appropriate action to ensure optimal performance."
       ],
@@ -250,11 +250,11 @@
       "tasks": [
         "Met with clients to discuss website designs and functionality.",
         "Created custom plugins, themes, and functions for WordPress websites.",
-        "Tested front-end code in multiple browsers to ensure cross-browser compatibility.",
+        "Tested frontend code in multiple browsers to ensure cross-browser compatibility.",
         "Worked with multiple APIs and RESTful Services.",
         "Built reusable code and libraries for future use.",
         "Optimized pages for page speed using Google PageSpeed (API) for Apache to achieve higher rankings on Search Engines (SEM).",
-        "Front-end development using the latest HTML5 and CSS3 techniques, enhanced by jQuery to enable optimum user experience throughout the websites.",
+        "Frontend development using the latest HTML5 and CSS3 techniques, enhanced by jQuery to enable optimum user experience throughout the websites.",
         "Worked in Agile methodology."
       ],
       "skills": [

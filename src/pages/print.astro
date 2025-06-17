@@ -19,7 +19,7 @@ import PrintLayout from "@/layouts/PrintLayout.astro";
         content.experience.map((exp, i) => (
           <>
             <PrintExperience experience={exp} />
-            {(i === 2 || i === 5) && <div class="break-before-page" />}
+            {(i === 1 || i === 5) && <div class="break-before-page" />}
           </>
         ))
       }
