@@ -14,12 +14,12 @@ import PrintLayout from "@/layouts/PrintLayout.astro";
 
   <section>
     <h2 class="text-4xl mb-4 font-medium">Experience</h2>
-    <div class="flex flex-col gap-24">
+    <div class="flex flex-col gap-12">
       {
         content.experience.map((exp, i) => (
           <>
             <PrintExperience experience={exp} />
-            {(i === 1 || i === 4 || i === 7) && (
+            {(i === 0 || i === 2 || i === 5 || i === 7) && (
               <div class="break-before-page my-12" />
             )}
           </>
