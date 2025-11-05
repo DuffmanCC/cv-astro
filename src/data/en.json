@@ -3,16 +3,50 @@
   "title": "Carlos Ortiz - Full Stack Developer",
   "description": "Frontend engineer specialized in React apps and AI-driven workflows. Over 10 years of experience building scalable digital products.",
   "profile": [
-    "Experienced Frontend Developer with a strong focus on React, Vue.js, NextJS, Astro, and modern UI development. With over 10 years of proven experience, I specialize in crafting scalable, maintainable, and intuitive user interfaces that enhance user experience across diverse applications.",
+    "Experienced Frontend Developer with a strong focus on React, Next.js, and modern UI development. With over 10 years of proven experience, I specialize in building interactive, scalable, and maintainable web applications that deliver outstanding developer and user experiences.",
 
-    "I have successfully led frontend and backend architecture projects, including the development of the Digital, Social Media, and Film department at <a href='https://www.networkrail.co.uk' class='link' target='_blank'>Network Rail</a>, where I introduced a design system and established a scalable architecture that streamlined collaboration and consistency across other agencies. Most recently, I served as Lead Frontend Engineer at FlowArchitect, where I spearheaded the development of AI-powered workflow applications using React and related technologies.",
+    "I have successfully led frontend and backend architecture projects, including the development of the Digital, Social Media, and Film department at <a href='https://www.networkrail.co.uk' class='link' target='_blank'>Network Rail</a>, where I introduced a design system and established a scalable architecture that streamlined collaboration and consistency across other agencies.",
 
-    "I am now fully focused on <a href='https://www.maingpt.chat' target='_blank' class='link'>MainGPT</a>, a tool that helps online businesses integrate personalized AI chat assistants to enhance customer experience and streamline support operations. As part of this work, I design full-stack solutions that integrate vector databases (e.g., Pinecone) and leverage AI tools like the ChatGPT API to deliver context-aware, intelligent conversations.",
+    "Previously, I served as Lead Frontend Engineer at FlowArchitect and MainGPT, where I spearheaded the development of AI-powered workflow applications using React and related technologies.",
 
-    "While my current focus is frontend development, I bring extensive full-stack experience, particularly in building robust APIs and backend systems using PHP frameworks like WordPress, Laravel, and Symfony."
+    "I am now fully dedicated to building <a href='https://www.reactchallenges.com' target='_blank' class='link'>ReactChallenges.com</a> — an interactive platform that helps developers practice React through timed coding challenges that simulate real interview conditions. The platform provides a TypeScript-based editor, real-time test execution, and an isolated runtime to evaluate solutions just like in a professional environment.",
+
+    "While my current focus is on frontend and full-stack development with React and Next.js, I bring extensive experience in backend systems — including API design and database architecture — using technologies such as Laravel, Drizzle, PostgreSQL, and Node.js."
   ],
 
   "experience": [
+    {
+      "title": "Founder & Lead Developer",
+      "company": "ReactChallenges.com",
+      "url": "https://www.reactchallenges.com/",
+      "type": "Independent project",
+      "period": "June 2025 - Present",
+      "place": "Remote, Spain",
+      "intro": "Built an interactive platform that simulates real React technical interviews, where developers solve timed coding challenges in TypeScript with instant test-based feedback and a realistic development environment.",
+      "tasks": [
+        "Developed a full-stack Next.js application that allows users to solve React challenges under timed conditions, emulating real interview scenarios.",
+        "Implemented a secure testing server that receives challenge code submissions, runs automated tests in isolation, and returns structured feedback to the client.",
+        "Integrated the Monaco Editor with TypeScript support and a Vim keybinding layer for an authentic developer experience.",
+        "Used Sandpack to dynamically render React components in-browser, enabling instant visual previews of user solutions.",
+        "Designed and managed a PostgreSQL database using Drizzle ORM to store users, challenge attempts, results, and progress history.",
+        "Created a custom API layer for handling submissions, timing, and test evaluation, ensuring performance and sandboxed isolation.",
+        "Built a clean, responsive interface using Tailwind CSS and shadcn/ui components for consistency and accessibility across devices.",
+        "Implemented secure authentication, session handling, and middleware for route protection and challenge access control.",
+        "Optimized the build and deployment process for Vercel, including the integration of a dedicated runtime for test execution and challenge rendering."
+      ],
+      "skills": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vitest",
+        "Sandpack",
+        "Stripe",
+        "PostgreSQL",
+        "Vercel"
+      ],
+      "projects": []
+    },
     {
       "title": "AI Engineer",
       "company": "MainGPT",
@@ -291,30 +325,6 @@
       "tasks": [],
       "skills": ["WordPress", "PrestaShop", "jQuery", "HTML5", "CSS3"],
       "projects": []
-    }
-  ],
-
-  "otherProjects": [
-    {
-      "title": "Network Rail Jobs",
-      "url": "https://networkrail-jobs.vercel.app/",
-      "githubUrl": "https://github.com/DuffmanCC/networkrail-jobs",
-      "description": "Getting familiar with the new app router in NextJS and NextUi.",
-      "skills": ["Next.js", "NestUi", "React", "Vercel"]
-    },
-    {
-      "title": "Play Soroban",
-      "url": "https://duffmancc.github.io/fast-calc/",
-      "githubUrl": "https://github.com/DuffmanCC/fast-calc",
-      "description": "A simple game to practice the Soroban.",
-      "skills": ["React"]
-    },
-    {
-      "title": "Soroban React Component",
-      "url": "https://www.npmjs.com/package/soroban-react-component",
-      "githubUrl": "https://github.com/DuffmanCC/soroban-react-component",
-      "description": "A React component to display a Soroban abacus.",
-      "skills": ["React", "NPM"]
     }
   ]
 }
