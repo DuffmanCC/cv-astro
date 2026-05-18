@@ -11,7 +11,9 @@
 
     "I am now fully dedicated to building <a href='https://www.reactchallenges.com' target='_blank' class='link'>ReactChallenges.com</a> — an interactive platform that helps developers practice React through timed coding challenges that simulate real interview conditions. The platform provides a TypeScript-based editor, real-time test execution, and an isolated runtime to evaluate solutions just like in a professional environment.",
 
-    "While my current focus is on frontend and full-stack development with React and Next.js, I bring extensive experience in backend systems — including API design and database architecture — using technologies such as Laravel, Drizzle, PostgreSQL, and Node.js."
+    "While my current focus is on frontend and full-stack development with React and Next.js, I bring extensive experience in backend systems — including API design and database architecture — using technologies such as Laravel, Drizzle, PostgreSQL, and Node.js.",
+
+    "I integrate AI-powered coding assistants like OpenCode into my daily workflow to accelerate development, streamline debugging, and improve overall productivity."
   ],
 
   "experience": [
