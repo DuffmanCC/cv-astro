@@ -18,5 +18,8 @@
   "devDependencies": {
     "@tailwindcss/typography": "0.5.16",
     "@types/node": "22.15.17"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "puppeteer", "sharp"]
   }
 }
