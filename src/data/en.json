@@ -7,13 +7,11 @@
 
     "I have successfully led frontend and backend architecture projects, including the development of the Digital, Social Media, and Film department at <a href='https://www.networkrail.co.uk' class='link' target='_blank'>Network Rail</a>, where I introduced a design system and established a scalable architecture that streamlined collaboration and consistency across other agencies.",
 
-    "Previously, I served as Lead Frontend Engineer at FlowArchitect and MainGPT, where I spearheaded the development of AI-powered workflow applications using React and related technologies.",
+    "Previously, I served as Lead Frontend Engineer at FlowArchitect and <a href='https://www.maingpt.chat' target='_blank' class='link'>MainGPT</a>, spearheading AI-powered workflow applications in fast-paced startup environments — building products from the ground up in small teams where speed, pragmatism, and ownership were essential. Not every startup reaches production, and having been through that, I know how to make the most of early-stage constraints and ship what matters.",
 
-    "I am now fully dedicated to building <a href='https://www.reactchallenges.com' target='_blank' class='link'>ReactChallenges.com</a> — an interactive platform that helps developers practice React through timed coding challenges that simulate real interview conditions. The platform provides a TypeScript-based editor, real-time test execution, and an isolated runtime to evaluate solutions just like in a professional environment.",
+    "I am now fully dedicated to building <a href='https://www.reactchallenges.com' target='_blank' class='link'>ReactChallenges.com</a> — an interactive platform that helps developers practice React through timed coding challenges with a TypeScript editor, real-time test execution, and an isolated runtime that simulates real interview conditions.",
 
-    "While my current focus is on frontend and full-stack development with React and Next.js, I bring extensive experience in backend systems — including API design and database architecture — using technologies such as Laravel, Drizzle, PostgreSQL, and Node.js.",
-
-    "I integrate AI-powered coding assistants like OpenCode into my daily workflow to accelerate development, streamline debugging, and improve overall productivity."
+    "While my current focus is on frontend and full-stack development with React and Next.js, I bring extensive experience in backend systems — including API design and database architecture — using technologies such as Laravel, Drizzle, PostgreSQL, and Node.js. I integrate AI-powered coding assistants like OpenCode into my daily workflow to accelerate development, streamline debugging, and improve overall productivity."
   ],
 
   "experience": [
@@ -230,7 +228,7 @@
       "type": "Full time",
       "period": "Feb 2018 - April 2022 | 4 years and 3 months",
       "place": "Milton Keynes, United Kingdom",
-      "intro": "Network Rail is the owner and infrastructure manager of most of the railway network in Great Britain. I worked on several projects for the company's internal systems, primarily leading the development of the new corporate website and providing guidance to other teams and agencies.",
+      "intro": "Network Rail is the owner and infrastructure manager of most of the railway network in Great Britain. As a public sector body, accessibility and compliance were core requirements. I worked on several projects for the company's internal systems, primarily leading the development of the new corporate website and providing guidance to other teams and agencies.",
       "tasks": [
         "Designed the architecture, development, and maintenance of the company's corporate website.",
         "Led the design and implementation of new features and functionality to enhance the user experience.",
@@ -238,7 +236,8 @@
         "Created custom Gutenberg blocks based on Advanced Custom Fields and Vue.js",
         "Developed a design system using <a href='https://storybook.js.org/' target='_blank' class='link'>Storybook</a> to manage all frontend resources of the corporate website.",
         "Created single-page applications and other microsites based on Vue.js",
-        "Monitored website performance and took appropriate action to ensure optimal performance."
+        "Monitored website performance and took appropriate action to ensure optimal performance.",
+        "Ensured WCAG 2.1 AA accessibility compliance across the corporate website and all microsites, implementing keyboard navigation, screen reader support, and ARIA best practices within the design system."
       ],
       "skills": [
         "WordPress",
@@ -258,7 +257,8 @@
         "OAuth",
         "JWT",
         "Algolia",
-        "Docker"
+        "Docker",
+        "Accessibility (WCAG)"
       ],
       "projects": [
         {
