@@ -48,7 +48,7 @@ const { experience } = Astro.props as { experience: Experience };
     experience.skills.length > 0 && (
       <div class="mb-6 flex flex-wrap gap-2">
         {experience.skills.map((skill) => (
-          <span class="rounded-full bg-gray-50 text-gray-950 px-4 py-2 border border-gray-600">
+          <span class="rounded-full bg-gray-50 text-gray-950 px-2 py-1 text-xs font-semibold border border-gray-600">
             {skill}
           </span>
         ))}
