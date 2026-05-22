@@ -37,6 +37,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
       - name: Build
         env:
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"

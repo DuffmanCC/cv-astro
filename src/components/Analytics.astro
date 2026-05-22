@@ -13,6 +13,7 @@ const isProd = import.meta.env.PROD;
 
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
+      // eslint-disable-next-line prefer-rest-params
       function gtag() {{ dataLayer.push(arguments); }}
       gtag("js", new Date());
       gtag("config", "G-MJRJC5MREY");
